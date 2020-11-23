@@ -2804,3 +2804,47 @@ input, select, textarea {
 			p.Descripció {
 				text-align: left;
 			}
+
+/*collapsible*/
+
+			.collapsible {
+				background-color: rgba(139, 207, 219, 0.308);
+				color: white;
+				cursor: pointer;
+				padding: 1%;
+				width: 100%;
+				border: none;
+				text-align: left;
+				outline: none;
+				font-size: 15px;
+			}
+			
+			.active, .collapsible:hover {
+				background-color: rgba(139, 207, 219, 0.637);
+			}
+			
+			.collapsible:after {
+				content: '\002B';
+				color: white;
+				font-weight: none;
+				float: right;
+				margin-left: 5px;
+			}
+			
+			.active:after {
+				content: "\2212";
+			}
+			
+			.contentcolap {
+				padding: 0px 5%;
+				text-align: left;
+				max-height: 0;
+				overflow: hidden ;
+				transition: max-height 0.2s ease-out;
+				background-color: rgba(159, 196, 202, 0.308);
+			}
+
+			.counter{
+				text-align: left;
+				font-size: 20px;
+			  }
