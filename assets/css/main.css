@@ -2837,6 +2837,7 @@ input, select, textarea {
 			
 			.contentcolap {
 				padding: 0px 5%;
+				
 				text-align: left;
 				max-height: 0;
 				overflow: hidden ;
